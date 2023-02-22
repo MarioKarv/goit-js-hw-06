@@ -6,8 +6,7 @@ changeColorButton.addEventListener("click", changeColorFunction);
  
 function changeColorFunction(event) {
   event.preventDefault();
-  body.style.backgroundColor = getRandomHexColor();
-  itemWhoChangeColor.textContent = getRandomHexColor();
+  body.style.backgroundColor = itemWhoChangeColor.textContent = getRandomHexColor();
 }
 
 function getRandomHexColor() {
